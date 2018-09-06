@@ -1,0 +1,134 @@
+{
+    "region_info" : [
+        {
+            "name" : "noeul",
+            "gu" : "마포구",
+            "img" : "",
+            "filter" : "B612",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "사진 촬영을 위해 이곳을 찾는다면 팔각정이 있는 광장 아래에 조성된 전망대로 가보자. 응봉산 암벽등반공원 쪽으로 조금만 내려가면 된다. 팔각정 주변에는 나무가 많아 카메라 앵글을 잡기가 애매하지만, 전망대에서는 지척에 있는 성수대교와 멀리 동호대교까지 사진에 담을 수 있다."
+            }
+        },
+        {
+            "name" : "gyenam",
+            "gu" : "양천구",
+            "img" : "",
+            "filter" : "MOLDIV",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "양천구 개남"
+            }
+        },
+        {
+            "name" : "ansan",
+            "gu" : "서대문구",
+            "img" : "",
+            "filter" : "FOODIE",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation": "안산서대문구"
+            }
+        },
+        {
+            "name" : "building63",
+            "gu" : "영등포구",
+            "img" : "",
+            "filter" : "SNOW",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "빌딩63영등포"
+            }
+        },
+        {
+            "name" : "bukak",
+            "gu" : "종로구",
+            "img" : "",
+            "filter" : "Candy",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "종로북악"
+            }
+        },
+        {
+            "name" : "kyeongbok",
+            "gu" : "종로구",
+            "img" : "",
+            "filter" : "픽테일",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "경복종로"
+            }
+        },
+        {
+            "name" : "naksan",
+            "gu" : "종로구",
+            "img" : "",
+            "filter" : "SNOW",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "낙산종로"
+            }
+        },
+        {
+            "name" : "gaeun",
+            "gu" : "성북구",
+            "img" : "",
+            "filter" : "Original",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "개운성복"
+            }
+        },
+        {
+            "name" : "namsan",
+            "gu" : "용산구",
+            "img" : "",
+            "filter" : "Cymera",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "남산용산"
+            }
+        },
+        {
+            "name" : "banpo",
+            "gu" : "서초구",
+            "img" : "",
+            "filter" : "Candy",
+            "detail": {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "서초반포"
+            }
+        },
+        {
+            "name" : "ungbong",
+            "gu" : "성동구",
+            "img" : "",
+            "filter" : "FOODIE",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "성동웅봉"
+            }
+        },
+        {
+            "name" : "sukchon",
+            "gu" : "송파구",
+            "img" : "",
+            "filter" : "B612",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "송파석촌"
+            }
+        },
+        {
+            "name" : "olympic",
+            "gu" : "송파구",
+            "img" : "",
+            "filter" : "SNOW",
+            "detail" : {
+                "region_detail" : "XX산 OO공원 서쪽계단",
+                "explanation" : "송파올림픽"
+            }
+        }
+    ]
+}

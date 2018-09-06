@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background70"
+    android:orientation="vertical"
+    tools:context=".Recommendation_board">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00ffffff"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/gu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="4dp"
+        android:layout_marginRight="3dp"
+        android:text="마포구"
+        android:textSize="16sp"
+        android:background="@drawable/bg_gis_result_items_count"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_margin="5dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/seoul_image_01" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/moon_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/moon_full" />
+
+        <TextView
+            android:id="@+id/recommendation_num"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/moon_btn"
+            android:padding="6dp"
+            android:text="0"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/region_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="XX산 OO공원 서쪽계단"
+            android:textColorHighlight="#88ffffff"
+            android:textSize="16sp"
+            android:background="@drawable/bg_gis_result_items_count"/>
+
+        <TextView
+            android:id="@+id/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="B612 OO필터"
+            android:textSize="16sp"
+            android:background="@drawable/bg_gis_result_items_count"/>
+
+
+        <TextView
+            android:id="@+id/explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="사진 촬영을 위해 이곳을 찾는다면 팔각정이 있는 광장 아래에 조성된 전망대로 가보자. 응봉산 암벽등반공원 쪽으로 조금만 내려가면 된다. 팔각정 주변에는 나무가 많아 카메라 앵글을 잡기가 애매하지만, 전망대에서는 지척에 있는 성수대교와 멀리 동호대교까지 사진에 담을 수 있다."
+            android:textSize="16sp"
+            android:background="@drawable/bg_gis_result_items_count"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
